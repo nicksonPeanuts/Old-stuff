@@ -1,0 +1,11 @@
+ID,Nome,Età,Città,Reddito,Iscritto
+1,Luca,25,Roma,2500,True
+2,Anna,30,Milano,3200,False
+3,Marco,22,Napoli,1800,True
+4,Sara,35,Torino,4000,True
+5,Giovanni,40,Bologna,5000,False
+6,Elena,28,Firenze,2700,True
+7,Francesco,33,Genova,3500,True
+8,Marta,26,Venezia,2600,False
+9,Stefano,29,Palermo,2900,False
+10,Giulia,31,Catania,3100,True

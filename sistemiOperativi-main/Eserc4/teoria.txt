@@ -1,0 +1,46 @@
+TEORIA
+essenziale la comprensione dei thread e dei semafori
+
+thread sono un insieme di processi che eseguono lo stesso programma,
+condividono la stessa memoria, stack e heap
+
+ogni thread ha uno stack
+
+funzioni per gestirli: pthread  
+
+più flussi che funzionano davvero in maniera parallela
+
+CONDIVIDONO:
+memoria
+PIP e PPID
+file aperti
+privilegi
+working directory
+
+SEMAFORI
+
+i semafori sono condivisi fra piu thread, incredibile,
+
+prog 1 esegue -> crea sem
+prog 2 esegue -> ha accesso al semaforo
+
+i thread possono fare delle
+post -> incremento sem
+wait -> decremento sem
+
+Funzioni named semaphores
+
+sem_open()
+sem_wait(sem)
+sem_post(sem)
+sem_getvalues(sem)
+sem_close()
+sem_unlink()
+
+Funzioni unnamed semaphores
+
+sem_init()
+sem_destroy()
+sem_wait(sem)
+sem_post(sem)
+
